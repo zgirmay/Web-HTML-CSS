@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization-Weather Dashboard</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css_styling.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="mainpage.html">Latitude</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="lat_v_temp.html">Latitude vs. Max Temperature</a></li>
+              <li><a href="lat_v_humid.html">Latitude vs. Humidity</a></li>
+              <li><a href="lat_v_cloudy.html">Latitude vs. Cloudiness</a></li>
+              <li><a href="lat_v_windy.html">Latitude vs. Wind Speed</a></li>
+              <li><a href="globaltemp.html">Global Temperatures</a></li>
+              <li><a href="globalhumidity.html">Global Humidity</a></li>
+              <li><a href="globalcloudy.html">Global Cloudiness</a></li>
+              <li><a href="globalwindy.html">Global Wind Speed</a></li>
+              <li><a href="mainpage.html">Home</a></li>
+            </ul>
+          </li>
+          <li><a href="compare.html">Comparison</a></li>
+          <li><a href="csv_data.html">Data</a></li>
+          <li><a target="_blank" href="https://github.com/zgirmay/Web-HTML-CSS">Repository</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-9">
+
+        <h3>Global Temperatures</h3>
+
+          <div class="pull-left">
+            <a target="_blank" href="HTML_Homework/Instructions/Resources/assets/images/Fig1"><img src="HTML_Homework/Instructions/Resources/assets/images/Fig1" alt="Global Temperatures" width="100%" height="100%"></a>
+          </div>
+
+        </div> 
+
+        <div class="col-md-3">
+
+          <h3>Observations</h3>
+
+            <div class="pull-left">
+              <p>The process selected 533 unique cities. On 12/10/2017, the highest temperature was recorded
+                 in Santiago del Estero, Argentina at 99.73˚F. The lowest temperature recorded was Ust-Nera,
+                 Russia at -44.73˚F. Generally, the highest global temperatures were within the tropics.
+                 (The band of latitudes ranging from 23.5˚ south (Tropic of Capricorn) to 23.5˚ north
+                 (Tropic of Cancer.)) The two highest temperature points were measured south of the
+                 Tropic of Capricorn, which was consistent with the season, as we were approaching the
+                 summer solstice in the Southern Hemisphere. Temperatures dropped sharply north of
+                 the Tropic of Cancer; all of the below freezing (32˚F) temperatures were in this region.
+                 This was consistent with the season, as we were approaching the winter solstice in the Northern Hemisphere. </p>
+            </div>
+
+        </div> 
+    </div> 
+  </div>
+
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </html>

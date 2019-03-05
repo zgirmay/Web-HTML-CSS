@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css_styling.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+     
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="mainpage.html">Latitude</a>
+      </div>
+
+      
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="lat_v_temp.html">Latitude vs. Max Temperature</a></li>
+              <li><a href="lat_v_humid.html">Latitude vs. Humidity</a></li>
+              <li><a href="lat_v_cloudy.html">Latitude vs. Cloudiness</a></li>
+              <li><a href="lat_v_windy.html">Latitude vs. Wind Speed</a></li>
+              <li><a href="globaltemp.html">Global Temperatures</a></li>
+              <li><a href="globalhumidity.html">Global Humidity</a></li>
+              <li><a href="globalcloudy.html">Global Cloudiness</a></li>
+              <li><a href="globalwindy.html">Global Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="compare.html">Comparison</a></li>
+          <li><a href="csv_data.html">Data</a></li>
+          <li><a target="_blank" href="https://github.com/zgirmay/Web-HTML-CSS">Repository</a></li>
+        </ul>
+      </div>
+      
+    </div>
+    
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6 pad top"> <br>
+          <h3>Summary: Global Weather Plots</h3> <br>
+        </div>
+
+        <div class="col-md-6 pad top"> <br>
+          <h3>Visualizations</h3> <br>
+        </div>
+
+      </div>
+
+    <div class="row">
+
+        <div class="col-md-6 pad top"> <br>
+
+          <div class="pull-left">
+            <img src="HTML_Homework/Instructions/Resources/assets/images/Fig1" alt="Latitude vs. Max Temperature" width="200" height="175">
+          </div>
+          
+          <div class="text-left">
+            <p> The purpose of this project was to analyze how weather changes as you get closer to the
+                equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap
+                API to assemble a dataset of over 500 cities. </p> <br>
+            <p> After assembling the dataset, Matplotlib was used to plot various aspects of weather
+                vs. latitude. Factors analyzed included: temperature, cloudiness, wind-speed and humidity. </p> <br>
+            <p> Additionally, Matplotlib was used to plot aspects of the weather using longitude
+                vs. latitude. The intent was to visualize a world map using weather plots. This site
+                provides the source data and visualizations created as part of the analysis,
+                as well as explanations and descriptions of any trends and correlations witnessed. </p>
+          </div>
+
+        </div>
+
+        <div class="col-md-3 pad top"> 
+
+          <div class="pull-right">
+            <a href="lat_v_temp.html"><img src="HTML_Homework/Instructions/Resources/assets/images/Fig1" alt="Latitude vs. Max Temperature" width="100%" height="100%"></a>
+            <a href="lat_v_windy.html"><img src="HTML_Homework/Instructions/Resources/assets/images/Fig4" alt="Latitude vs. Wind Speed" width="100%" height="100%"></a>
+          </div>
+
+       </div>
+
+       <div class="col-md-3 pad top"> 
+
+        <div class="pull-right">
+          <a href="lat_v_humid.html"><img src="HTML_Homework/Instructions/Resources/assets/images/Fig2" alt="Latitude vs. Humidity" width="100%" height="100%"></a>
+          <a href="lat_v_cloudy.html"><img src="HTML_Homework/Instructions/Resources/assets/images/Fig3" alt="Latitude vs. Cloudiness" width="100%" height="100%"></a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6 pad top"> 
+      </div>
+
+      <div class="col-md-3 pad top"> 
+
+        <div class="pull-right">
+          <a href="globaltemp.html"><img src="HTML_Homework/Instructions/Resources/assets/images/Fig1" alt="Global Temperatures" width="100%" height="100%"></a>
+          <a href="globalwindy.html"><img src="HTML_Homework/Instructions/Resources/assets/images/Fig4" alt="Global Wind Speed" width="100%" height="100%"></a>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-3 pad top"> 
+
+        <div class="pull-right">
+          <a href="globalhumidity.html"><img src="HTML_Homework/Instructions/Resources/assets/images/Fig2"  alt="Global Humidity" width="100%" height="100%"></a>
+          <a href="globalcloudy.html"><img src= "HTML_Homework/Instructions/Resources/assets/images/Fig3" alt="Global Cloudiness" width="100%" height="100%"></a>
+        </div>
+
+      </div>
+
+  </div>
+
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  
+  </html>
